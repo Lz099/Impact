@@ -1,0 +1,2154 @@
+{
+  "schema": 1,
+  "generator": "Tools/Equipment/BuildEquipment.py",
+  "destination": "/Game/Impact/Equipment",
+  "units": "cm",
+  "axes": {
+    "X": "forward",
+    "Y": "right",
+    "Z": "up"
+  },
+  "source": "ArtSource/Equipment/Equipment.blend",
+  "meshes": [
+    {
+      "name": "SM_VestLight",
+      "asset_path": "/Game/Impact/Equipment/SM_VestLight",
+      "object_path": "/Game/Impact/Equipment/SM_VestLight.SM_VestLight",
+      "fbx": "ArtSource/Equipment/FBX/SM_VestLight.fbx",
+      "description": "Light / open sides, twin webbing bands, slim front and back carriers.",
+      "origin": "midchest",
+      "bounds_cm": [
+        [
+          -13.32401,
+          -20.99177,
+          -19.7
+        ],
+        [
+          12.48,
+          20.99177,
+          20.99026
+        ]
+      ],
+      "dimensions_xyz_cm": [
+        25.80401,
+        41.98353,
+        40.69027
+      ],
+      "vertices": 1112,
+      "triangles": 2060,
+      "material_slots": [
+        "M_Equipment_Olive",
+        "M_Equipment_Edge",
+        "M_Equipment_Webbing",
+        "M_Equipment_Hardware",
+        "M_Equipment_Charcoal"
+      ],
+      "local_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "closed_components": true,
+      "parts": [
+        {
+          "name": "front carrier",
+          "first_vertex": 0,
+          "vertex_count": 56,
+          "material": "Olive"
+        },
+        {
+          "name": "stitched perimeter binding",
+          "first_vertex": 56,
+          "vertex_count": 60,
+          "material": "Edge"
+        },
+        {
+          "name": "back carrier",
+          "first_vertex": 116,
+          "vertex_count": 56,
+          "material": "Olive"
+        },
+        {
+          "name": "stitched perimeter binding",
+          "first_vertex": 172,
+          "vertex_count": 60,
+          "material": "Edge"
+        },
+        {
+          "name": "drag handle",
+          "first_vertex": 232,
+          "vertex_count": 16,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible side cummerbund",
+          "first_vertex": 248,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible side cummerbund",
+          "first_vertex": 272,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible shoulder strap",
+          "first_vertex": 296,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "low front strap buckle",
+          "first_vertex": 320,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "buckle webbing insert",
+          "first_vertex": 344,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible side cummerbund",
+          "first_vertex": 368,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible side cummerbund",
+          "first_vertex": 392,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible shoulder strap",
+          "first_vertex": 416,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "low front strap buckle",
+          "first_vertex": 440,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "buckle webbing insert",
+          "first_vertex": 464,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 488,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 512,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 536,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 560,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 584,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 608,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 632,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 656,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 680,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 704,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 728,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 752,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 776,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 800,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 824,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 848,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 872,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 896,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 920,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 944,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 968,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 992,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1016,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1040,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "blank identification patch",
+          "first_vertex": 1064,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "tier mark",
+          "first_vertex": 1088,
+          "vertex_count": 24,
+          "material": "Edge"
+        }
+      ],
+      "fbx_sha256": "74918d4d9006d41959169e6691ca54d154b80f2a0c98ae134152262ada9e87e0",
+      "export_validation": {
+        "fbx_version": 7400,
+        "unit_scale_cm": 1,
+        "raw_vertex_ue_mapping_max_error_cm": 0.0,
+        "identity_node_transforms": true,
+        "normals_and_uvs": true,
+        "y_handedness_compensated": true
+      }
+    },
+    {
+      "name": "SM_VestMedium",
+      "asset_path": "/Game/Impact/Equipment/SM_VestMedium",
+      "object_path": "/Game/Impact/Equipment/SM_VestMedium.SM_VestMedium",
+      "fbx": "ArtSource/Equipment/FBX/SM_VestMedium.fbx",
+      "description": "Medium / inset plates, broad soft cummerbund, three shallow utility pockets.",
+      "origin": "midchest",
+      "bounds_cm": [
+        [
+          -13.36,
+          -20.99177,
+          -20.4
+        ],
+        [
+          13.5,
+          20.99177,
+          20.99026
+        ]
+      ],
+      "dimensions_xyz_cm": [
+        26.86,
+        41.98353,
+        41.39026
+      ],
+      "vertices": 1920,
+      "triangles": 3552,
+      "material_slots": [
+        "M_Equipment_Olive",
+        "M_Equipment_Edge",
+        "M_Equipment_Charcoal",
+        "M_Equipment_Webbing",
+        "M_Equipment_Hardware"
+      ],
+      "local_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "closed_components": true,
+      "parts": [
+        {
+          "name": "front carrier",
+          "first_vertex": 0,
+          "vertex_count": 56,
+          "material": "Olive"
+        },
+        {
+          "name": "stitched perimeter binding",
+          "first_vertex": 56,
+          "vertex_count": 60,
+          "material": "Edge"
+        },
+        {
+          "name": "segmented plate face",
+          "first_vertex": 116,
+          "vertex_count": 56,
+          "material": "Charcoal"
+        },
+        {
+          "name": "back carrier",
+          "first_vertex": 172,
+          "vertex_count": 56,
+          "material": "Olive"
+        },
+        {
+          "name": "stitched perimeter binding",
+          "first_vertex": 228,
+          "vertex_count": 60,
+          "material": "Edge"
+        },
+        {
+          "name": "segmented plate face",
+          "first_vertex": 288,
+          "vertex_count": 56,
+          "material": "Charcoal"
+        },
+        {
+          "name": "drag handle",
+          "first_vertex": 344,
+          "vertex_count": 16,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible side cummerbund",
+          "first_vertex": 360,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible shoulder strap",
+          "first_vertex": 384,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "low front strap buckle",
+          "first_vertex": 408,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "buckle webbing insert",
+          "first_vertex": 432,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible side cummerbund",
+          "first_vertex": 456,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible shoulder strap",
+          "first_vertex": 480,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "low front strap buckle",
+          "first_vertex": 504,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "buckle webbing insert",
+          "first_vertex": 528,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 552,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 576,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 600,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 624,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 648,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 672,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 696,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 720,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 744,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 768,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 792,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 816,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 840,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 864,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 888,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 912,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 936,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 960,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 984,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1008,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1032,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1056,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1080,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1104,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1128,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1152,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1176,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1200,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1224,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1248,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1272,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1296,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1320,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1344,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1368,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1392,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1416,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1440,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1464,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1488,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1512,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1536,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1560,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1584,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1608,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1632,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1656,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1680,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "blank identification patch",
+          "first_vertex": 1704,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "tier mark",
+          "first_vertex": 1728,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "tier mark",
+          "first_vertex": 1752,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "flat utility pocket",
+          "first_vertex": 1776,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "pocket flap",
+          "first_vertex": 1800,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "flat utility pocket",
+          "first_vertex": 1824,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "pocket flap",
+          "first_vertex": 1848,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "flat utility pocket",
+          "first_vertex": 1872,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "pocket flap",
+          "first_vertex": 1896,
+          "vertex_count": 24,
+          "material": "Edge"
+        }
+      ],
+      "fbx_sha256": "8017ec0724f28c9597d914b1bf9987f4be376c4993dc5cd7462531e2b8fddbac",
+      "export_validation": {
+        "fbx_version": 7400,
+        "unit_scale_cm": 1,
+        "raw_vertex_ue_mapping_max_error_cm": 0.0,
+        "identity_node_transforms": true,
+        "normals_and_uvs": true,
+        "y_handedness_compensated": true
+      }
+    },
+    {
+      "name": "SM_VestHeavy",
+      "asset_path": "/Game/Impact/Equipment/SM_VestHeavy",
+      "object_path": "/Game/Impact/Equipment/SM_VestHeavy.SM_VestHeavy",
+      "fbx": "ArtSource/Equipment/FBX/SM_VestHeavy.fbx",
+      "description": "Heavy / wider torso plates, lower lateral and abdominal armor, split breastplate; no pauldrons.",
+      "origin": "midchest",
+      "bounds_cm": [
+        [
+          -13.36,
+          -20.99177,
+          -21.0
+        ],
+        [
+          13.5,
+          20.99177,
+          20.99026
+        ]
+      ],
+      "dimensions_xyz_cm": [
+        26.86,
+        41.98353,
+        41.99026
+      ],
+      "vertices": 2136,
+      "triangles": 3936,
+      "material_slots": [
+        "M_Equipment_Olive",
+        "M_Equipment_Edge",
+        "M_Equipment_Charcoal",
+        "M_Equipment_Webbing",
+        "M_Equipment_Hardware"
+      ],
+      "local_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "closed_components": true,
+      "parts": [
+        {
+          "name": "front carrier",
+          "first_vertex": 0,
+          "vertex_count": 56,
+          "material": "Olive"
+        },
+        {
+          "name": "stitched perimeter binding",
+          "first_vertex": 56,
+          "vertex_count": 60,
+          "material": "Edge"
+        },
+        {
+          "name": "segmented plate face",
+          "first_vertex": 116,
+          "vertex_count": 56,
+          "material": "Charcoal"
+        },
+        {
+          "name": "back carrier",
+          "first_vertex": 172,
+          "vertex_count": 56,
+          "material": "Olive"
+        },
+        {
+          "name": "stitched perimeter binding",
+          "first_vertex": 228,
+          "vertex_count": 60,
+          "material": "Edge"
+        },
+        {
+          "name": "segmented plate face",
+          "first_vertex": 288,
+          "vertex_count": 56,
+          "material": "Charcoal"
+        },
+        {
+          "name": "drag handle",
+          "first_vertex": 344,
+          "vertex_count": 16,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible side cummerbund",
+          "first_vertex": 360,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible shoulder strap",
+          "first_vertex": 384,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "low front strap buckle",
+          "first_vertex": 408,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "buckle webbing insert",
+          "first_vertex": 432,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "lower lateral armor",
+          "first_vertex": 456,
+          "vertex_count": 16,
+          "material": "Olive"
+        },
+        {
+          "name": "side attachment loop",
+          "first_vertex": 472,
+          "vertex_count": 16,
+          "material": "Edge"
+        },
+        {
+          "name": "side attachment loop",
+          "first_vertex": 488,
+          "vertex_count": 16,
+          "material": "Edge"
+        },
+        {
+          "name": "side attachment loop",
+          "first_vertex": 504,
+          "vertex_count": 16,
+          "material": "Edge"
+        },
+        {
+          "name": "flexible side cummerbund",
+          "first_vertex": 520,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "flexible shoulder strap",
+          "first_vertex": 544,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "low front strap buckle",
+          "first_vertex": 568,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "buckle webbing insert",
+          "first_vertex": 592,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "lower lateral armor",
+          "first_vertex": 616,
+          "vertex_count": 16,
+          "material": "Olive"
+        },
+        {
+          "name": "side attachment loop",
+          "first_vertex": 632,
+          "vertex_count": 16,
+          "material": "Edge"
+        },
+        {
+          "name": "side attachment loop",
+          "first_vertex": 648,
+          "vertex_count": 16,
+          "material": "Edge"
+        },
+        {
+          "name": "side attachment loop",
+          "first_vertex": 664,
+          "vertex_count": 16,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 680,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 704,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 728,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 752,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 776,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 800,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 824,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 848,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 872,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 896,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 920,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 944,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 968,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 992,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1016,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1040,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1064,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1088,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1112,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1136,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1160,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1184,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1208,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1232,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1256,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1280,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1304,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1328,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1352,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1376,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1400,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1424,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1448,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1472,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1496,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1520,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1544,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1568,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1592,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1616,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1640,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1664,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "horizontal attachment webbing",
+          "first_vertex": 1688,
+          "vertex_count": 24,
+          "material": "Webbing"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1712,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1736,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1760,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1784,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "bar tack",
+          "first_vertex": 1808,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "blank identification patch",
+          "first_vertex": 1832,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "tier mark",
+          "first_vertex": 1856,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "tier mark",
+          "first_vertex": 1880,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "tier mark",
+          "first_vertex": 1904,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "flat utility pocket",
+          "first_vertex": 1928,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "pocket flap",
+          "first_vertex": 1952,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "flat utility pocket",
+          "first_vertex": 1976,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "pocket flap",
+          "first_vertex": 2000,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "flat utility pocket",
+          "first_vertex": 2024,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "pocket flap",
+          "first_vertex": 2048,
+          "vertex_count": 24,
+          "material": "Edge"
+        },
+        {
+          "name": "lower abdominal armor",
+          "first_vertex": 2072,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "upper split breastplate",
+          "first_vertex": 2096,
+          "vertex_count": 20,
+          "material": "Olive"
+        },
+        {
+          "name": "upper split breastplate",
+          "first_vertex": 2116,
+          "vertex_count": 20,
+          "material": "Olive"
+        }
+      ],
+      "fbx_sha256": "93a07edcb461cecbe6fcb1847fc532d7d3858737b729f2e07f8f2feab0cce51d",
+      "export_validation": {
+        "fbx_version": 7400,
+        "unit_scale_cm": 1,
+        "raw_vertex_ue_mapping_max_error_cm": 0.0,
+        "identity_node_transforms": true,
+        "normals_and_uvs": true,
+        "y_handedness_compensated": true
+      }
+    },
+    {
+      "name": "SM_Helmet",
+      "asset_path": "/Game/Impact/Equipment/SM_Helmet",
+      "object_path": "/Game/Impact/Equipment/SM_Helmet.SM_Helmet",
+      "fbx": "ArtSource/Equipment/FBX/SM_Helmet.fbx",
+      "description": "Open elliptical shell, high brow, open bottom; lateral chin straps, front mount and side rails.",
+      "origin": "head center",
+      "bounds_cm": [
+        [
+          -13.445,
+          -11.445,
+          -11.15961
+        ],
+        [
+          13.25,
+          11.445,
+          14.0
+        ]
+      ],
+      "dimensions_xyz_cm": [
+        26.695,
+        22.89,
+        25.15961
+      ],
+      "vertices": 694,
+      "triangles": 1316,
+      "material_slots": [
+        "M_Equipment_Olive",
+        "M_Equipment_Charcoal",
+        "M_Equipment_Hardware",
+        "M_Equipment_Webbing"
+      ],
+      "local_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "closed_components": true,
+      "parts": [
+        {
+          "name": "hollow bowl / 0.8 cm shell",
+          "first_vertex": 0,
+          "vertex_count": 338,
+          "material": "Olive"
+        },
+        {
+          "name": "rubber rim",
+          "first_vertex": 338,
+          "vertex_count": 100,
+          "material": "Charcoal"
+        },
+        {
+          "name": "side accessory rail",
+          "first_vertex": 438,
+          "vertex_count": 12,
+          "material": "Charcoal"
+        },
+        {
+          "name": "rail fastener",
+          "first_vertex": 450,
+          "vertex_count": 16,
+          "material": "Hardware"
+        },
+        {
+          "name": "rail fastener",
+          "first_vertex": 466,
+          "vertex_count": 16,
+          "material": "Hardware"
+        },
+        {
+          "name": "front chin webbing",
+          "first_vertex": 482,
+          "vertex_count": 12,
+          "material": "Webbing"
+        },
+        {
+          "name": "rear chin webbing",
+          "first_vertex": 494,
+          "vertex_count": 12,
+          "material": "Webbing"
+        },
+        {
+          "name": "side accessory rail",
+          "first_vertex": 506,
+          "vertex_count": 12,
+          "material": "Charcoal"
+        },
+        {
+          "name": "rail fastener",
+          "first_vertex": 518,
+          "vertex_count": 16,
+          "material": "Hardware"
+        },
+        {
+          "name": "rail fastener",
+          "first_vertex": 534,
+          "vertex_count": 16,
+          "material": "Hardware"
+        },
+        {
+          "name": "front chin webbing",
+          "first_vertex": 550,
+          "vertex_count": 12,
+          "material": "Webbing"
+        },
+        {
+          "name": "rear chin webbing",
+          "first_vertex": 562,
+          "vertex_count": 12,
+          "material": "Webbing"
+        },
+        {
+          "name": "chin cup strap",
+          "first_vertex": 574,
+          "vertex_count": 16,
+          "material": "Charcoal"
+        },
+        {
+          "name": "chin strap buckle",
+          "first_vertex": 590,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "front mount shroud",
+          "first_vertex": 614,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "front dovetail",
+          "first_vertex": 638,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "mount screw",
+          "first_vertex": 662,
+          "vertex_count": 16,
+          "material": "Hardware"
+        },
+        {
+          "name": "mount screw",
+          "first_vertex": 678,
+          "vertex_count": 16,
+          "material": "Hardware"
+        }
+      ],
+      "fbx_sha256": "b746dfce8037427b3608c39e23e5cd5fa0a5f809c63e965af9647facb501e8ac",
+      "export_validation": {
+        "fbx_version": 7400,
+        "unit_scale_cm": 1,
+        "raw_vertex_ue_mapping_max_error_cm": 0.0,
+        "identity_node_transforms": true,
+        "normals_and_uvs": true,
+        "y_handedness_compensated": true
+      }
+    },
+    {
+      "name": "SM_HelmetNight",
+      "asset_path": "/Game/Impact/Equipment/SM_HelmetNight",
+      "object_path": "/Game/Impact/Equipment/SM_HelmetNight.SM_HelmetNight",
+      "fbx": "ArtSource/Equipment/FBX/SM_HelmetNight.fbx",
+      "description": "Dual twelve-sided night optics with recessed teal lenses and shared folding front mount.",
+      "origin": "head center",
+      "bounds_cm": [
+        [
+          12.8,
+          -5.9,
+          -3.5
+        ],
+        [
+          21.4,
+          5.9,
+          6.2
+        ]
+      ],
+      "dimensions_xyz_cm": [
+        8.6,
+        11.8,
+        9.7
+      ],
+      "vertices": 604,
+      "triangles": 1136,
+      "material_slots": [
+        "M_Equipment_Hardware",
+        "M_Equipment_Charcoal",
+        "M_Equipment_Olive",
+        "M_Equipment_Lens",
+        "M_Equipment_Webbing"
+      ],
+      "local_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "closed_components": true,
+      "parts": [
+        {
+          "name": "front mount tongue",
+          "first_vertex": 0,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "folding bridge",
+          "first_vertex": 24,
+          "vertex_count": 12,
+          "material": "Charcoal"
+        },
+        {
+          "name": "bridge hinge",
+          "first_vertex": 36,
+          "vertex_count": 20,
+          "material": "Hardware"
+        },
+        {
+          "name": "binocular bridge",
+          "first_vertex": 56,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "night tube",
+          "first_vertex": 80,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "tube housing",
+          "first_vertex": 104,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "focus collar",
+          "first_vertex": 128,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "focus collar",
+          "first_vertex": 152,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "open objective bezel",
+          "first_vertex": 176,
+          "vertex_count": 48,
+          "material": "Charcoal"
+        },
+        {
+          "name": "recessed objective",
+          "first_vertex": 224,
+          "vertex_count": 24,
+          "material": "Lens"
+        },
+        {
+          "name": "eyecup",
+          "first_vertex": 248,
+          "vertex_count": 48,
+          "material": "Webbing"
+        },
+        {
+          "name": "rear optic",
+          "first_vertex": 296,
+          "vertex_count": 24,
+          "material": "Lens"
+        },
+        {
+          "name": "night tube",
+          "first_vertex": 320,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "tube housing",
+          "first_vertex": 344,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "focus collar",
+          "first_vertex": 368,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "focus collar",
+          "first_vertex": 392,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "open objective bezel",
+          "first_vertex": 416,
+          "vertex_count": 48,
+          "material": "Charcoal"
+        },
+        {
+          "name": "recessed objective",
+          "first_vertex": 464,
+          "vertex_count": 24,
+          "material": "Lens"
+        },
+        {
+          "name": "eyecup",
+          "first_vertex": 488,
+          "vertex_count": 48,
+          "material": "Webbing"
+        },
+        {
+          "name": "rear optic",
+          "first_vertex": 536,
+          "vertex_count": 24,
+          "material": "Lens"
+        },
+        {
+          "name": "control housing",
+          "first_vertex": 560,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "power dial",
+          "first_vertex": 584,
+          "vertex_count": 20,
+          "material": "Hardware"
+        }
+      ],
+      "mount_cm": [
+        12,
+        0,
+        5
+      ],
+      "fbx_sha256": "fd4339804749fa695fb97c8eadcd45c688696d56cc6230532e2fde65f75ea98f",
+      "export_validation": {
+        "fbx_version": 7400,
+        "unit_scale_cm": 1,
+        "raw_vertex_ue_mapping_max_error_cm": 0.0,
+        "identity_node_transforms": true,
+        "normals_and_uvs": true,
+        "y_handedness_compensated": true
+      }
+    },
+    {
+      "name": "SM_HelmetThermal",
+      "asset_path": "/Game/Impact/Equipment/SM_HelmetThermal",
+      "object_path": "/Game/Impact/Equipment/SM_HelmetThermal.SM_HelmetThermal",
+      "fbx": "ArtSource/Equipment/FBX/SM_HelmetThermal.fbx",
+      "description": "Single box sensor, faceted objective and cooling fins; same helmet-local front mount.",
+      "origin": "head center",
+      "bounds_cm": [
+        [
+          12.8,
+          -2.95,
+          -3.55
+        ],
+        [
+          22.0,
+          3.14,
+          6.2
+        ]
+      ],
+      "dimensions_xyz_cm": [
+        9.2,
+        6.09,
+        9.75
+      ],
+      "vertices": 344,
+      "triangles": 644,
+      "material_slots": [
+        "M_Equipment_Hardware",
+        "M_Equipment_Charcoal",
+        "M_Equipment_Olive",
+        "M_Equipment_Lens",
+        "M_Equipment_Webbing"
+      ],
+      "local_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "closed_components": true,
+      "parts": [
+        {
+          "name": "front mount tongue",
+          "first_vertex": 0,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "folding bridge",
+          "first_vertex": 24,
+          "vertex_count": 12,
+          "material": "Charcoal"
+        },
+        {
+          "name": "bridge hinge",
+          "first_vertex": 36,
+          "vertex_count": 20,
+          "material": "Hardware"
+        },
+        {
+          "name": "single thermal sensor housing",
+          "first_vertex": 56,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "thermal top cover",
+          "first_vertex": 80,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "sensor bezel",
+          "first_vertex": 104,
+          "vertex_count": 48,
+          "material": "Charcoal"
+        },
+        {
+          "name": "thermal sensor window",
+          "first_vertex": 152,
+          "vertex_count": 24,
+          "material": "Lens"
+        },
+        {
+          "name": "monocular eyecup",
+          "first_vertex": 176,
+          "vertex_count": 48,
+          "material": "Webbing"
+        },
+        {
+          "name": "rear optic",
+          "first_vertex": 224,
+          "vertex_count": 24,
+          "material": "Lens"
+        },
+        {
+          "name": "cooling fin",
+          "first_vertex": 248,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "cooling fin",
+          "first_vertex": 272,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "cooling fin",
+          "first_vertex": 296,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "cooling fin",
+          "first_vertex": 320,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        }
+      ],
+      "mount_cm": [
+        12,
+        0,
+        5
+      ],
+      "fbx_sha256": "6287b9a3fa28f51dee6337f89d6a6d384bb972a16a3072d185e898a0fcb5d518",
+      "export_validation": {
+        "fbx_version": 7400,
+        "unit_scale_cm": 1,
+        "raw_vertex_ue_mapping_max_error_cm": 0.0,
+        "identity_node_transforms": true,
+        "normals_and_uvs": true,
+        "y_handedness_compensated": true
+      }
+    },
+    {
+      "name": "SM_HelmetLamp",
+      "asset_path": "/Game/Impact/Equipment/SM_HelmetLamp",
+      "object_path": "/Game/Impact/Equipment/SM_HelmetLamp.SM_HelmetLamp",
+      "fbx": "ArtSource/Equipment/FBX/SM_HelmetLamp.fbx",
+      "description": "Right-side rail flashlight; X+ beam axis, authored around Y+11 Z+3 attachment.",
+      "origin": "head center",
+      "bounds_cm": [
+        [
+          -4.8,
+          10.7,
+          0.95
+        ],
+        [
+          6.0,
+          16.05,
+          5.05
+        ]
+      ],
+      "dimensions_xyz_cm": [
+        10.8,
+        5.35,
+        4.1
+      ],
+      "vertices": 264,
+      "triangles": 492,
+      "material_slots": [
+        "M_Equipment_Hardware",
+        "M_Equipment_Charcoal",
+        "M_Equipment_Olive",
+        "M_Equipment_LampGlass",
+        "M_Equipment_Webbing"
+      ],
+      "local_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "closed_components": true,
+      "parts": [
+        {
+          "name": "right rail clamp",
+          "first_vertex": 0,
+          "vertex_count": 24,
+          "material": "Hardware"
+        },
+        {
+          "name": "lamp saddle",
+          "first_vertex": 24,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "flashlight body",
+          "first_vertex": 48,
+          "vertex_count": 24,
+          "material": "Charcoal"
+        },
+        {
+          "name": "grip rib",
+          "first_vertex": 72,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "grip rib",
+          "first_vertex": 96,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "grip rib",
+          "first_vertex": 120,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "flashlight head",
+          "first_vertex": 144,
+          "vertex_count": 24,
+          "material": "Olive"
+        },
+        {
+          "name": "open lamp bezel",
+          "first_vertex": 168,
+          "vertex_count": 48,
+          "material": "Hardware"
+        },
+        {
+          "name": "recessed lamp glass",
+          "first_vertex": 216,
+          "vertex_count": 24,
+          "material": "LampGlass"
+        },
+        {
+          "name": "tail switch",
+          "first_vertex": 240,
+          "vertex_count": 24,
+          "material": "Webbing"
+        }
+      ],
+      "mount_cm": [
+        0,
+        11,
+        3
+      ],
+      "fbx_sha256": "81e553e0eb1eede3cabe6a06d78615be7ef0ceb3773ca02eccd1aee6efa402c5",
+      "export_validation": {
+        "fbx_version": 7400,
+        "unit_scale_cm": 1,
+        "raw_vertex_ue_mapping_max_error_cm": 0.0,
+        "identity_node_transforms": true,
+        "normals_and_uvs": true,
+        "y_handedness_compensated": true
+      }
+    }
+  ],
+  "geometry_checks": {
+    "SM_VestLight": {
+      "neck_and_waist_open": true,
+      "front_back_panels": true,
+      "upper_arm_clearance_y19_z10": true
+    },
+    "SM_VestMedium": {
+      "neck_and_waist_open": true,
+      "front_back_panels": true,
+      "upper_arm_clearance_y19_z10": true
+    },
+    "SM_VestHeavy": {
+      "neck_and_waist_open": true,
+      "front_back_panels": true,
+      "upper_arm_clearance_y19_z10": true
+    },
+    "SM_Helmet": {
+      "open_bottom": true,
+      "open_face_x_positive": true,
+      "inner_crown_height_cm": 13.2,
+      "shell_thickness_cm": 0.8
+    }
+  },
+  "unreal_import_executed": false,
+  "materials": [
+    {
+      "name": "M_Equipment_Olive",
+      "asset_path": "/Game/Impact/Equipment/M_Equipment_Olive",
+      "base_color_linear": [
+        0.095,
+        0.118,
+        0.064,
+        1
+      ],
+      "metallic": 0.08,
+      "roughness": 0.78
+    },
+    {
+      "name": "M_Equipment_Charcoal",
+      "asset_path": "/Game/Impact/Equipment/M_Equipment_Charcoal",
+      "base_color_linear": [
+        0.025,
+        0.033,
+        0.032,
+        1
+      ],
+      "metallic": 0.22,
+      "roughness": 0.61
+    },
+    {
+      "name": "M_Equipment_Webbing",
+      "asset_path": "/Game/Impact/Equipment/M_Equipment_Webbing",
+      "base_color_linear": [
+        0.047,
+        0.057,
+        0.035,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.92
+    },
+    {
+      "name": "M_Equipment_Edge",
+      "asset_path": "/Game/Impact/Equipment/M_Equipment_Edge",
+      "base_color_linear": [
+        0.145,
+        0.164,
+        0.101,
+        1
+      ],
+      "metallic": 0.05,
+      "roughness": 0.82
+    },
+    {
+      "name": "M_Equipment_Hardware",
+      "asset_path": "/Game/Impact/Equipment/M_Equipment_Hardware",
+      "base_color_linear": [
+        0.075,
+        0.087,
+        0.082,
+        1
+      ],
+      "metallic": 0.72,
+      "roughness": 0.34
+    },
+    {
+      "name": "M_Equipment_Lens",
+      "asset_path": "/Game/Impact/Equipment/M_Equipment_Lens",
+      "base_color_linear": [
+        0.018,
+        0.15,
+        0.16,
+        1
+      ],
+      "metallic": 0.55,
+      "roughness": 0.16
+    },
+    {
+      "name": "M_Equipment_LampGlass",
+      "asset_path": "/Game/Impact/Equipment/M_Equipment_LampGlass",
+      "base_color_linear": [
+        0.58,
+        0.64,
+        0.48,
+        1
+      ],
+      "metallic": 0.35,
+      "roughness": 0.2
+    }
+  ],
+  "import": {
+    "factory": "FbxFactory",
+    "coordinate_system_policy": "KEEP_XYZ_AXES",
+    "convert_scene": false,
+    "convert_scene_unit": true,
+    "force_front_x_axis": false,
+    "auto_generate_collision": false,
+    "axis_forward": "Y",
+    "axis_up": "Z",
+    "fbx_vertex_transform_from_source": [
+      1,
+      -1,
+      1
+    ]
+  }
+}

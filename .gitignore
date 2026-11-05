@@ -1,0 +1,38 @@
+# Unreal build / generated
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+.vs/
+.idea/
+.vscode/
+*.sln
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.pdb
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Local editor state
+Content/Developers/
+Content/Collections/
+Config/Layouts/
+Config/UserEditorPerProjectUserSettings.ini
+.claude/
+
+# Third-party / non-redistributable raw assets (not part of this repository)
+Plugins/ALS/
+Tools/Mixamo_*/
+Content/Impact/Mixamo/
+Content/Impact/Weapons/
+ArtSource/Weapons/
+
+# Heavy previews, backups, logs
+*.gif
+*.blend1
+*.blend2
+*.log
+*.tmp

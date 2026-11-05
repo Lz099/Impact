@@ -1,0 +1,84 @@
+{
+  "destination": "/Game/Impact/Anims/Sol_Creation_v01",
+  "clips": [
+    {
+      "name": "Recroqueville_Au_Sol",
+      "duration_s": 5.0,
+      "tracks": 68,
+      "skeleton": "/ALS/ALS/Character/SK_Als.SK_Als",
+      "motion_deg": {
+        "pelvis": 0.0,
+        "spine_01": 5.999971565548062,
+        "spine_02": 6.000011692909435,
+        "spine_03": 2.9999736164995716,
+        "head": 1.999998276959974,
+        "upperarm_l": 5.167354857137405,
+        "thigh_r": 0.046918026827112165,
+        "foot_r": 0.04613872158612288
+      },
+      "seam_deg": {
+        "pelvis": 0.0,
+        "spine_01": 0.0,
+        "spine_02": 0.0,
+        "spine_03": 0.0,
+        "head": 0.0,
+        "upperarm_l": 0.0,
+        "thigh_r": 1.7075472925031877e-06,
+        "foot_r": 0.0
+      }
+    },
+    {
+      "name": "Halete_Au_Sol",
+      "duration_s": 5.0,
+      "tracks": 68,
+      "skeleton": "/ALS/ALS/Character/SK_Als.SK_Als",
+      "motion_deg": {
+        "pelvis": 0.0,
+        "spine_01": 0.7699909173542209,
+        "spine_02": 1.9800024712779385,
+        "spine_03": 1.320003959822251,
+        "head": 1.4300114134812996,
+        "upperarm_l": 6.7280846721102305,
+        "thigh_r": 0.0,
+        "foot_r": 0.0
+      },
+      "seam_deg": {
+        "pelvis": 0.0,
+        "spine_01": 0.0,
+        "spine_02": 0.0,
+        "spine_03": 0.0,
+        "head": 0.0,
+        "upperarm_l": 2.4148364981232994e-06,
+        "thigh_r": 0.0,
+        "foot_r": 0.0
+      }
+    },
+    {
+      "name": "Tient_Jambe_Au_Sol",
+      "duration_s": 5.0,
+      "tracks": 68,
+      "skeleton": "/ALS/ALS/Character/SK_Als.SK_Als",
+      "motion_deg": {
+        "pelvis": 0.0,
+        "spine_01": 3.9999231293863704,
+        "spine_02": 4.999922161144652,
+        "spine_03": 2.9999501377242996,
+        "head": 1.9999735175242328,
+        "upperarm_l": 1.5970856312643333,
+        "thigh_r": 2.480925983685735,
+        "foot_r": 2.606345759206917
+      },
+      "seam_deg": {
+        "pelvis": 0.0,
+        "spine_01": 0.0,
+        "spine_02": 0.0,
+        "spine_03": 0.0,
+        "head": 1.7075472925031877e-06,
+        "upperarm_l": 0.0,
+        "thigh_r": 0.0,
+        "foot_r": 0.0
+      }
+    }
+  ],
+  "passed": true
+}
